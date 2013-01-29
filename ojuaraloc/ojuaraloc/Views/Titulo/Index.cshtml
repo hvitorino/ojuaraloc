@@ -1,0 +1,14 @@
+﻿@model IList<ojuaraloc.Models.Titulo>
+
+@{
+    ViewBag.Title = "Títulos";
+}
+
+<h2>Títulos</h2>
+
+<ol>
+@foreach (var titulo in Model)
+{
+        <li>@titulo.Nome</li>
+}
+</ol>

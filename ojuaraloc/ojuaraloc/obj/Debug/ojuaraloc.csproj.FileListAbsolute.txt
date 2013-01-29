@@ -47,3 +47,9 @@ C:\git\ojuaraloc\ojuaraloc\ojuaraloc\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
 C:\git\ojuaraloc\ojuaraloc\ojuaraloc\obj\Debug\ojuaraloc.csprojResolveAssemblyReference.cache
 C:\git\ojuaraloc\ojuaraloc\ojuaraloc\obj\Debug\ojuaraloc.dll
 C:\git\ojuaraloc\ojuaraloc\ojuaraloc\obj\Debug\ojuaraloc.pdb
+C:\git\ojuaraloc\ojuaraloc\ojuaraloc\bin\FluentNHibernate.dll
+C:\git\ojuaraloc\ojuaraloc\ojuaraloc\bin\Iesi.Collections.dll
+C:\git\ojuaraloc\ojuaraloc\ojuaraloc\bin\NHibernate.dll
+C:\git\ojuaraloc\ojuaraloc\ojuaraloc\bin\FluentNHibernate.xml
+C:\git\ojuaraloc\ojuaraloc\ojuaraloc\bin\Iesi.Collections.xml
+C:\git\ojuaraloc\ojuaraloc\ojuaraloc\bin\NHibernate.xml

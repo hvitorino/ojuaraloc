@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
+using RiaLibrary.Web;
 
 namespace ojuaraloc
 {
@@ -13,10 +14,12 @@ namespace ojuaraloc
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+            routes.MapRoutes(); 
+
             routes.MapRoute(
-                name: "Default",
+                name: "Master",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Titulo", action = "Index", id = UrlParameter.Optional }
             );
         }
     }

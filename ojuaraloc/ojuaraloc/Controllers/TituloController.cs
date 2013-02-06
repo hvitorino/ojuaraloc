@@ -13,22 +13,9 @@ namespace ojuaraloc.Controllers
         {
             ViewBag.Title = "Títulos";
 
-            var fluentNh = new AutoMapper();
-            var factory = fluentNh.GetSessionFactory();
-            var session = factory.OpenSession();
+            var session = SessionProvider.CurrentSession;
 
-            CurrentSessionContext.Bind(session);
-
-            //var titulos = session.CreateCriteria<Titulo>()
-            //    .Add(Restrictions.Eq("Nome", "Ojuara"))
-            //    .List<Titulo>();
-
-            //var titulos = session.QueryOver<Titulo>()
-            //    .Where(titulo => titulo.NomeDoTitulo == "Ciço")
-            //    .List<Titulo>();
-
-            var titulos = session.CreateSQLQuery("select * from titulo")
-                .SetResultTransformer(Transformers.AliasToBean(typeof(Titulo)))
+            var titulos = session.CreateCriteria<Titulo>()
                 .List<Titulo>();
 
             return View(titulos);

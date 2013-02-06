@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>RiaLibrary.Web</id>
+    <version>0.2.1</version>
+    <title>ASP.NET MVC Attribute Based Route Mapper</title>
+    <authors>koistya</authors>
+    <owners>koistya</owners>
+    <projectUrl>http://maproutes.codeplex.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This is a helper extension which automatically registers all website routes containing inside custom attributes in ASP.NET MVC controller methods.</description>
+    <summary>This is a helper extension which automatically registers all website routes containing inside custom attributes in ASP.NET MVC controller methods.</summary>
+    <references>
+      <reference file="RiaLibrary.Web.dll" />
+    </references>
+  </metadata>
+</package>

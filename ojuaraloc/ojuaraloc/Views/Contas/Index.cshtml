@@ -1,0 +1,14 @@
+﻿@model IEnumerable<ojuaraloc.Models.Conta>
+
+@{
+    ViewBag.Title = "Contas";
+}
+
+<h2>Contas</h2>
+
+<ol>
+    @foreach (var conta in Model)
+    {
+        <li>@conta.Saldo</li>
+    }
+</ol>

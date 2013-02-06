@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>restfulie.net</id>
+    <version>0.5.16</version>
+    <authors>Mauricio Aniche,  Pedro Reys,  Guilherme Silveira and Felipe Seixas</authors>
+    <owners>Mauricio Aniche,  Pedro Reys,  Guilherme Silveira and Felipe Seixas</owners>
+    <licenseUrl>https://github.com/caelum/restfulie/blob/master/LICENSE</licenseUrl>
+    <projectUrl>http://restfulie.caelum.com.br/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Extend ASP.NET MVC to enable the creation of RESTFul api and hypermedia aware resources.</description>
+    <tags>REST HTTP API</tags>
+    <dependencies>
+      <dependency id="Castle.Core" version="2.5.2" />
+      <dependency id="Newtonsoft.Json" version="4.0.8" />
+      <dependency id="AspNetMvc" version="[3.0.20105.1]" />
+    </dependencies>
+    <references>
+      <reference file="Restfulie.Server.dll" />
+    </references>
+  </metadata>
+</package>

@@ -14,7 +14,7 @@ namespace ojuaraloc.Configuration.MappingOverrides
         {
             var lista = new List<Cliente>();
 
-            mapping.Id(cliente => cliente.IdCliente);
+            mapping.Id(cliente => cliente.Id);
         }
     }
 }

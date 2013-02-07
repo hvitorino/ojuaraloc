@@ -1,4 +1,4 @@
-﻿namespace ojuaraloc.Models
+﻿namespace ojualoc.core
 {
     public class Titulo
     {

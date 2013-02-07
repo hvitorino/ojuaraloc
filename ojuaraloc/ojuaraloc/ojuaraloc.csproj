@@ -179,21 +179,14 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Configuration\AutoMapper.cs" />
-    <Compile Include="Configuration\MappedModels.cs" />
-    <Compile Include="Configuration\MappingOverrides\OverrideCliente.cs" />
     <Compile Include="Controllers\ClienteController.cs" />
-    <Compile Include="Controllers\ContasController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\TituloController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Cliente.cs" />
-    <Compile Include="Models\Titulo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SessionLifeCycle.cs" />
-    <Compile Include="SessionProvider.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
@@ -306,6 +299,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ojualoc.core\ojualoc.core.csproj">
+      <Project>{4eab2470-6fd4-4103-95d3-e1deecfa4a71}</Project>
+      <Name>ojualoc.core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ojuaraloc.data\ojuaraloc.data.csproj">
+      <Project>{15659fbb-d2dd-4e83-a261-a510c4f2dd47}</Project>
+      <Name>ojuaraloc.data</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

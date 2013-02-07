@@ -1,20 +1,18 @@
-﻿using System.Collections.Generic;
-using System.Reflection;
+﻿using ojuaraloc.data.Configuration;
 using NHibernate;
 using NHibernate.Context;
-using ojuaraloc.Configuration;
 
-namespace ojuaraloc
+namespace ojuaraloc.data
 {
     public static class SessionProvider
     {
-        private static ISessionFactory factory;
+        private static ISessionFactory _factory;
 
         public static ISessionFactory Factory
         {
             get
             {
-                return factory ?? (factory = new AutoMapper().GetSessionFactory());
+                return _factory ?? (_factory = new AutoMapper().GetSessionFactory());
             }
         }
 

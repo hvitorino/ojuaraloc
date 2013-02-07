@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ojuaraloc.Models
+namespace ojualoc.core
 {
     public class Cliente
     {

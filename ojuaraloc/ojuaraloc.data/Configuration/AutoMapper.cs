@@ -3,9 +3,9 @@ using FluentNHibernate.Cfg;
 using FluentNHibernate.Cfg.Db;
 using NHibernate;
 using NHibernate.Tool.hbm2ddl;
-using ojuaraloc.Models;
+using ojualoc.core;
 
-namespace ojuaraloc.Configuration
+namespace ojuaraloc.data.Configuration
 {
     public class AutoMapper
     {

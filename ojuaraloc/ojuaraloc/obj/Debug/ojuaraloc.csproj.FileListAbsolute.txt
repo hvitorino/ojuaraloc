@@ -56,3 +56,8 @@ C:\git\ojuaraloc\ojuaraloc\ojuaraloc\bin\DotNetOpenAuth.OpenId.xml
 C:\git\ojuaraloc\ojuaraloc\ojuaraloc\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
 C:\git\ojuaraloc\ojuaraloc\ojuaraloc\obj\Debug\ojuaraloc.dll
 C:\git\ojuaraloc\ojuaraloc\ojuaraloc\obj\Debug\ojuaraloc.pdb
+C:\git\ojuaraloc\ojuaraloc\ojuaraloc\obj\Debug\ojuaraloc.csprojResolveAssemblyReference.cache
+C:\git\ojuaraloc\ojuaraloc\ojuaraloc\bin\ojualoc.core.dll
+C:\git\ojuaraloc\ojuaraloc\ojuaraloc\bin\ojualoc.core.pdb
+C:\git\ojuaraloc\ojuaraloc\ojuaraloc\bin\ojuaraloc.data.dll
+C:\git\ojuaraloc\ojuaraloc\ojuaraloc\bin\ojuaraloc.data.pdb

@@ -1,8 +1,6 @@
-﻿using NHibernate.Context;
-using NHibernate.Criterion;
-using NHibernate.Transform;
-using ojuaraloc.Configuration;
-using ojuaraloc.Models;
+﻿using System.Collections.Generic;
+using ojualoc.core;
+using ojuaraloc.data;
 using System.Web.Mvc;
 
 namespace ojuaraloc.Controllers
@@ -13,12 +11,7 @@ namespace ojuaraloc.Controllers
         {
             ViewBag.Title = "Títulos";
 
-            var session = SessionProvider.CurrentSession;
-
-            var titulos = session.CreateCriteria<Titulo>()
-                .List<Titulo>();
-
-            return View(titulos);
+            return View(new List<Titulo>());
         }
     }
 }

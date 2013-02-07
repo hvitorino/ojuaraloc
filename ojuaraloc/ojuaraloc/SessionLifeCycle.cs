@@ -1,6 +1,7 @@
-﻿using System;
+﻿using NHibernate.Context;
+using ojuaraloc.data;
+using System;
 using System.Web;
-using NHibernate.Context;
 
 namespace ojuaraloc
 {

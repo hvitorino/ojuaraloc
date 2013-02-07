@@ -1,0 +1,13 @@
+C:\git\ojuaraloc\ojuaraloc\ojuaraloc.data\obj\Debug\ojuaraloc.data.csprojResolveAssemblyReference.cache
+C:\git\ojuaraloc\ojuaraloc\ojuaraloc.data\bin\Debug\ojuaraloc.data.dll
+C:\git\ojuaraloc\ojuaraloc\ojuaraloc.data\bin\Debug\ojuaraloc.data.pdb
+C:\git\ojuaraloc\ojuaraloc\ojuaraloc.data\bin\Debug\NHibernate.dll
+C:\git\ojuaraloc\ojuaraloc\ojuaraloc.data\bin\Debug\ojualoc.core.dll
+C:\git\ojuaraloc\ojuaraloc\ojuaraloc.data\bin\Debug\FluentNHibernate.dll
+C:\git\ojuaraloc\ojuaraloc\ojuaraloc.data\bin\Debug\Iesi.Collections.dll
+C:\git\ojuaraloc\ojuaraloc\ojuaraloc.data\bin\Debug\ojualoc.core.pdb
+C:\git\ojuaraloc\ojuaraloc\ojuaraloc.data\bin\Debug\NHibernate.xml
+C:\git\ojuaraloc\ojuaraloc\ojuaraloc.data\bin\Debug\FluentNHibernate.xml
+C:\git\ojuaraloc\ojuaraloc\ojuaraloc.data\bin\Debug\Iesi.Collections.xml
+C:\git\ojuaraloc\ojuaraloc\ojuaraloc.data\obj\Debug\ojuaraloc.data.dll
+C:\git\ojuaraloc\ojuaraloc\ojuaraloc.data\obj\Debug\ojuaraloc.data.pdb

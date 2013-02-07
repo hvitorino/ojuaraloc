@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System.Collections.Generic;
 using FluentNHibernate.Automapping;
 using FluentNHibernate.Automapping.Alterations;
-using ojuaraloc.Models;
+using ojualoc.core;
 
-namespace ojuaraloc.Configuration.MappingOverrides
+namespace ojuaraloc.data.Configuration.MappingOverrides
 {
     public class OverrideCliente : IAutoMappingOverride<Cliente>
     {

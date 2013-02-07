@@ -1,7 +1,7 @@
 ﻿using FluentNHibernate.Automapping;
 using System;
 
-namespace ojuaraloc.Configuration
+namespace ojuaraloc.data.Configuration
 {
     public class MappedModels : DefaultAutomappingConfiguration
     {

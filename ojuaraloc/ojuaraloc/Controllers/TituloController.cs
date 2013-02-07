@@ -1,17 +1,20 @@
-﻿using System.Collections.Generic;
+﻿using Restfulie.Server;
 using ojualoc.core;
 using ojuaraloc.data;
-using System.Web.Mvc;
 
 namespace ojuaraloc.Controllers
 {
-    public class TituloController : Controller
+    [ActAsRestfulie]
+    public class TituloController : CrudController<Titulo>
     {
-        public ActionResult Index()
+        public TituloController()
         {
-            ViewBag.Title = "Títulos";
+            
+        }
 
-            return View(new List<Titulo>());
+        public TituloController(Data<Titulo> data)
+            : base(data)
+        {
         }
     }
 }

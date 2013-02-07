@@ -1,8 +1,12 @@
 ﻿namespace ojualoc.core
 {
-    public class Titulo
+    public class Titulo : Entidade
     {
-        public virtual long Id { get; set; }
         public virtual string Nome { get; set; }
+
+        public override string ToString()
+        {
+            return Nome;
+        }
     }
 }

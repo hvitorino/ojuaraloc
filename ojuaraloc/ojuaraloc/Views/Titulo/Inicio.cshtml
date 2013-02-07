@@ -1,0 +1,14 @@
+﻿@model IEnumerable<ojualoc.core.Titulo>
+
+@{
+    ViewBag.Title = "Títulos";
+}
+
+<h2>Títulos</h2>
+
+<ol>
+    @foreach (var titulo in Model)
+    {
+        <li>@titulo</li>
+    }
+</ol>

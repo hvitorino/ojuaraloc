@@ -1,7 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using Castle.Windsor;
+using ojuaraloc.Windsor;
+using System;
 using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
@@ -14,8 +13,16 @@ namespace ojuaraloc
 
     public class MvcApplication : System.Web.HttpApplication
     {
+        protected IWindsorContainer container = new WindsorContainer();
+
         protected void Application_Start()
         {
+            container.Install(
+                new DataInstaller(),
+                new ControllersInstaller());
+
+            ControllerBuilder.Current.SetControllerFactory(new ControllerFactory(container.Kernel));
+
             AreaRegistration.RegisterAllAreas();
 
             WebApiConfig.Register(GlobalConfiguration.Configuration);

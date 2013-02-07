@@ -1,16 +1,22 @@
-﻿using Restfulie.Server;
+﻿using ojualoc.core;
+using ojuaraloc.data;
+using Restfulie.Server;
 using Restfulie.Server.Results;
 using System.Web.Mvc;
 
 namespace ojuaraloc.Controllers
 {
     [ActAsRestfulie]
-    public class ClienteController : Controller
+    public class ClienteController : CrudController<Cliente>
     {
-        [HttpGet]
-        public ActionResult Index()
+        public ClienteController()
         {
-            return new OK();
+            
+        }
+
+        public ClienteController(Data<Cliente> data)
+            : base(data)
+        {
         }
     }
 }

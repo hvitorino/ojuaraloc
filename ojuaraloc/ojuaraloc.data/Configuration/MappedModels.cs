@@ -1,5 +1,6 @@
 ﻿using FluentNHibernate.Automapping;
 using System;
+using ojualoc.core;
 
 namespace ojuaraloc.data.Configuration
 {
@@ -7,7 +8,7 @@ namespace ojuaraloc.data.Configuration
     {
         public override bool ShouldMap(Type type)
         {
-            return type.Namespace == "ojuaraloc.Models";
+            return type.BaseType == typeof (Entidade);
         }
     }
 }

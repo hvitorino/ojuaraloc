@@ -19,7 +19,7 @@ namespace ojuaraloc
             routes.MapRoute(
                 name: "Master",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Titulo", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Titulo", action = "Inicio", id = UrlParameter.Optional }
             );
         }
     }

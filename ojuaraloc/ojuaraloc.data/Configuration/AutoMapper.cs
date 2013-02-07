@@ -15,8 +15,7 @@ namespace ojuaraloc.data.Configuration
             const string context = "web";
 
             var conventions = AutoMap.Assemblies(new MappedModels(), typeof(Titulo).Assembly);
-            conventions.Override(typeof (MappingOverrides.OverrideCliente));
-
+            
             var factory = Fluently.Configure()
                 .Database(MsSqlConfiguration.MsSql2008.ConnectionString(connectionString))
                 .CurrentSessionContext(context)

@@ -2,22 +2,13 @@
 
 namespace ojualoc.core
 {
-    public class Cliente
+    public class Cliente : Entidade
     {
-        public virtual long Id { get; set; }
         public virtual string Nome { get; set; }
-
-        public virtual List<Conta> Contas { get; set; }
 
         public override string ToString()
         {
             return Nome;
         }
-    }
-
-    public class Conta
-    {
-        public virtual long Id { get; set; }
-        public virtual double Saldo { get; set; }
     }
 }

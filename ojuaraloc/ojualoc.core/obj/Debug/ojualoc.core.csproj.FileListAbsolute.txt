@@ -2,3 +2,8 @@ C:\git\ojuaraloc\ojuaraloc\ojualoc.core\bin\Debug\ojualoc.core.dll
 C:\git\ojuaraloc\ojuaraloc\ojualoc.core\bin\Debug\ojualoc.core.pdb
 C:\git\ojuaraloc\ojuaraloc\ojualoc.core\obj\Debug\ojualoc.core.dll
 C:\git\ojuaraloc\ojuaraloc\ojualoc.core\obj\Debug\ojualoc.core.pdb
+D:\Projetos\ojuaraloc\ojuaraloc\ojualoc.core\bin\Debug\ojualoc.core.dll
+D:\Projetos\ojuaraloc\ojuaraloc\ojualoc.core\bin\Debug\ojualoc.core.pdb
+D:\Projetos\ojuaraloc\ojuaraloc\ojualoc.core\obj\Debug\ojualoc.core.csprojResolveAssemblyReference.cache
+D:\Projetos\ojuaraloc\ojuaraloc\ojualoc.core\obj\Debug\ojualoc.core.dll
+D:\Projetos\ojuaraloc\ojuaraloc\ojualoc.core\obj\Debug\ojualoc.core.pdb

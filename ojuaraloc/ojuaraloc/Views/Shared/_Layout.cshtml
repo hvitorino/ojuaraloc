@@ -18,9 +18,8 @@
                     <nav>
                         <ul id="menu">
                             <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                            <li>@Html.ActionLink("Títulos", "Index", "Titulo")</li>
-                            <li>@Html.ActionLink("About", "About", "Home")</li>
-                            <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                            <li>@Html.ActionLink("Títulos", "Inicio", "Titulo")</li>
+                            <li>@Html.ActionLink("Clientes", "Inicio", "Cliente")</li>
                         </ul>
                     </nav>
                 </div>
@@ -41,6 +40,8 @@
         </footer>
 
         @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/knockout")
+        @Scripts.Render("~/bundles/viewmodels")
         @RenderSection("scripts", required: false)
     </body>
 </html>

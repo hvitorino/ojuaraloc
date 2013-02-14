@@ -45,13 +45,29 @@ namespace ojuaraloc.Controllers
         [HttpPost]
         public virtual ActionResult Inclui(T entidade)
         {
-            return new Created();
+            Data.Inclui(entidade);
+
+            //return new Created();
+            return RedirectToAction("Novo");
         }
 
-        [HttpPut]
+        [HttpPost]
         public virtual ActionResult Edita(T entidade)
         {
-            throw new NotImplementedException();
+            Data.Altera(entidade);
+
+            return RedirectToAction("Inicio");
+        }
+
+        [HttpGet]
+        public virtual ActionResult Detalhes(long id)
+        {
+            var carregado = Data.Carrega(id);
+
+            if (carregado == null)
+                return new NotFound();
+
+            return new OK(carregado);
         }
 
         [HttpDelete]
@@ -64,7 +80,7 @@ namespace ojuaraloc.Controllers
 
             Data.Exclui(carregado);
 
-            return new OK();
+            return RedirectToAction("Inicio");
         }
     }
 }

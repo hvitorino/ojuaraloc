@@ -30,6 +30,11 @@ namespace ojuaraloc.data
             NhSession.Save(entidade);
         }
 
+        public void Altera(T entidade)
+        {
+            NhSession.Update(entidade);
+        }
+
         public IEnumerable<T> Lista()
         {
             return NhSession.CreateCriteria<T>().List<T>();

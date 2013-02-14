@@ -3,12 +3,28 @@
 @{
     ViewBag.Title = "Títulos";
 }
-
-<h2>Títulos</h2>
-
-<ol>
-    @foreach (var titulo in Model)
-    {
-        <li>@titulo</li>
+    <p>
+        @Html.ActionLink("Novo", "Novo")
+    </p>
+    <table>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th></th>
+        </tr>
+    
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.ActionLink("Editar", "Edicao", new { id=item.Id }) |
+                @Html.ActionLink("Detalhes", "Detalhes", new { id=item.Id }) |
+                @Html.ActionLink("Exclui", "Exclui", new { id=item.Id })
+            </td>
+        </tr>
     }
-</ol>
+    
+    </table>

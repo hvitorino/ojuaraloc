@@ -11,7 +11,7 @@ namespace ojuaraloc.data.Configuration
     {
         public ISessionFactory GetSessionFactory()
         {
-            const string connectionString = @"Data Source=.\sqlexpress;Initial Catalog=ojuaraloc;Integrated Security=true";
+            const string connectionString = @"Data Source=.;Initial Catalog=ojuaraloc;User Id=sa;Password=masterkey";
             const string context = "web";
 
             var conventions = AutoMap.Assemblies(new MappedModels(), typeof(Titulo).Assembly);
